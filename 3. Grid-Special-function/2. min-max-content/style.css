@@ -1,0 +1,18 @@
+.container {
+	width: 60%;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns:1fr max-content 1fr;
+
+}
+
+.item {
+	background-color: rgb(112, 112, 197);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:nth-child(even) {
+	background-color: salmon;
+}

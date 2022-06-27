@@ -1,0 +1,20 @@
+.container{
+	width: 90%;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* row-gap: 5px; */
+	gap: 40px;
+}
+
+.item{
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.item:nth-child(even){
+	background-color: salmon;
+}

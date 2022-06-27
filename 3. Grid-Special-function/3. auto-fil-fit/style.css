@@ -1,0 +1,19 @@
+.container {
+	width: 60%;
+	border: 4px solid orange;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns:repeat(auto-fit ,100px);
+
+}
+
+.item {
+	background-color: rgb(112, 112, 197);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:nth-child(even) {
+	background-color: salmon;
+}

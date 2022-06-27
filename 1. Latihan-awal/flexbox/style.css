@@ -1,0 +1,66 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-color: rgba(128, 128, 128, 0.473);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 50px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container {
+	padding: 5px;
+	width: 1000px;
+	border: 5px solid black;
+	margin: 30px auto;
+	box-sizing: border-box;
+}
+
+
+.content{
+	display: flex;
+}
+
+.header {
+	background-color: crimson;
+	padding: 40px 0;
+}
+
+.asf {
+flex-grow: 1;
+}
+
+.asf .aside {
+	background-color: green;
+	padding: 60px 0;
+}
+
+.asf .nav {
+	background-color: blue;
+	padding: 100px 0;
+}
+
+.mainc {
+flex-grow: 1.5;
+
+
+}
+
+.mainc .main {
+	background-color: yellowgreen;
+	padding: 187.5px 0;
+	box-sizing: border-box;
+
+}
+
+
+.footer {
+	background-color: grey;
+	padding: 10px 0;
+}

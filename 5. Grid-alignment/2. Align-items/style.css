@@ -1,0 +1,41 @@
+.container {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-rows: repeat(3, 130px);
+	grid-template-columns: repeat(3, 1fr);
+	/* align-items: end; */
+	gap: 5px;
+	border: 1px solid black;
+
+	/* place items : <align items> <justify items> */
+	place-items: center end;
+
+}
+
+.item {
+	border: 3px solid black;
+	width: 100px;
+	background-color: lightblue;
+	list-style: none;
+}
+
+.item.i1,
+.item.i4,
+.item.i7 {
+	height: 100px;
+}
+
+.item.i2,
+.item.i5,
+.item.i8 {
+	height: 50px;
+}
+
+
+
+.item.i3,
+.item.i6,
+.item.i9 {
+	height: 80px;
+}
